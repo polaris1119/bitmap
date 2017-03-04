@@ -14,7 +14,7 @@ import (
 func TestBitmapSort(t *testing.T) {
 	bmap := bitmap.NewBitmapSize(7)
 
-	origal := [5]uint64{4,6,3,1,7}
+	original := [5]uint64{4,6,3,1,7}
 	expected := [5]uint64{1,3,4,6,7}
 	actual := [5]uint64{}
 
