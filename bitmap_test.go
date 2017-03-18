@@ -18,7 +18,7 @@ func TestBitmapSort(t *testing.T) {
 	expected := [5]uint64{1,3,4,6,7}
 	actual := [5]uint64{}
 
-	for _, offset := range origal {
+	for _, offset := range original {
 		bmap.SetBit(offset, 1)
 	}
 
